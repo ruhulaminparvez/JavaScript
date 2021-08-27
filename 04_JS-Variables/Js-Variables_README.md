@@ -231,7 +231,7 @@ const x = 2;   // Not allowed
 }
 ```
 
-Reassigning an existing const variable, in the same scope, is not allowed:
+Reassigning an existing `const` variable, in the same scope, is not allowed:
 
 ```
 const x = 2;     // Allowed
@@ -249,7 +249,7 @@ const x = 2;     // Not allowed
 }
 ```
 
-Redeclaring a variable with const, in another scope, or in another block, is allowed:
+Redeclaring a variable with `const`, in another scope, or in another block, is allowed:
 ```
 const x = 2;       // Allowed
 
@@ -264,7 +264,7 @@ const x = 2;       // Allowed
 
 ### Const Hoisting
 
-Variables defined with var are hoisted to the top and can be initialized at any time.
+Variables defined with `var` are hoisted to the top and can be initialized at any time.
 
 ```
 carName = "Volvo";

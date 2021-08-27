@@ -1,8 +1,8 @@
 # Variables
 ### There are 3 ways to declare a JavaScript variable:
-- Using var
-- Using let
-- Using const
+- Using [var](#var)
+- Using [let](#let)
+- Using [const](#const)
 
 ## Var
 Variables can be declared with `var` keyword and `var` is a `Global Scope`
@@ -131,3 +131,62 @@ PI = 3.14159265359;
 - A new Object
 - A new Function
 - A new RegExp
+
+### Constant Objects and Arrays
+
+The keyword const is a little misleading.
+
+It does not define a constant value. It defines a constant reference to a value.
+
+Because of this we can NOT:
+
+- Reassign a constant value
+- Reassign a constant array
+- Reassign a constant object
+
+But we CAN:
+
+Change the elements of constant array
+Change the properties of constant object
+
+### Constant Arrays
+We can change the elements of a constant array, For Example
+```
+// You can create a constant array:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// You can change an element:
+cars[0] = "Toyota";
+
+// You can add an element:
+cars.push("Audi");
+```
+
+But you can NOT reassign the array:
+```
+const cars = ["Saab", "Volvo", "BMW"];
+
+cars = ["Toyota", "Volvo", "Audi"];    // ERROR
+```
+
+### Constant Objects
+
+You can change the properties of a constant object, For Example
+```
+// You can create a const object:
+const car = {type:"Fiat", model:"500", color:"white"};
+
+// You can change a property:
+car.color = "red";
+
+// You can add a property:
+car.owner = "Johnson";
+```
+
+But you can NOT reassign the object:
+```
+const car = {type:"Fiat", model:"500", color:"white"};
+
+car = {type:"Volvo", model:"EX60", color:"red"};    // ERROR
+```
+

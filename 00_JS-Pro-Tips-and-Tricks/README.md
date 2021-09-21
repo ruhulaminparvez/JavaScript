@@ -118,3 +118,43 @@ console.log(quote.replace(/framework/g, "library"))  // "React is JS library & t
 ```
 
 ➡️ Source Code : [Click Here](06_Tips-and-Tricks/script.js)
+
+## 07 - Log values with variables names smartly
+```
+/******************************************
+* Log values with variables names smartly *
+******************************************/
+
+// variables declare
+const library1 = "jQuery"
+const library2 = "React"
+
+// Instead of doing this
+console.log(`library1 - ${library1}`) // library1 - jQuery
+console.log(`library2 - ${library2}`) // library2 - React
+
+// we can do this
+console.log({library1}) // {library1 : jQuery}
+console.log({library2}) // {library2 : React}
+```
+
+➡️ Source Code : [Click Here](07_Tips-and-Tricks/script.js)
+
+## 08 - Know performance of a task
+```
+/*****************************
+* Know performance of a task *
+*****************************/
+
+const startTime = performance.now();
+
+for (let i = 0; i < 50; i++){
+    console.log(i)
+}
+
+const endTime = performance.now();
+
+console.log(`loop took ${endTime - startTime} milliseconds to complete`)
+```
+
+➡️ Source Code : [Click Here](08_Tips-and-Tricks/script.js)

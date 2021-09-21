@@ -54,3 +54,52 @@ console.log(animals) // ['🐱', '🐼', '🐯']
 ```
 
 ➡️ Source Code : [Click Here](03_Tips-and-Tricks/script.js)
+
+## 04 - How to Flattern a Multi-dimensional Array
+```
+/********************************************
+* How to Flattern a Multi-dimensional Array *
+********************************************/
+
+// initialize the array
+let smileys = ['😊', ['😍', '😘'], '😏', ['😎', '🥺']]
+
+// we can use flat() method to flattern one level array
+console.log(smileys.flat()) // ['😊', '😍', '😘', '😏', '😎', '🥺']
+
+// multi-level array
+let smileysTwo = ['😊', '😍', ['😘', '😏', ['😎', '🥺']]]
+
+// we can pass 'Infinity' parameter to array.flat function
+console.log(smileysTwo.flat(Infinity)) // ['😊', '😍', '😘', '😏', '😎', '🥺']
+```
+
+➡️ Source Code : [Click Here](04_Tips-and-Tricks/script.js)
+
+## 05 - Short Conditionals
+```
+/*********************
+* Short Conditionals *
+*********************/
+
+// value declare
+let captain = "Dhoni";
+
+// Instead of doing this
+if (captain === "Dhoni"){
+    console.log("❤️")
+}
+
+// we can use &&
+captain === "Dhoni" && console.log("❤️");
+
+// And instead of doing this
+if (captain !== "Dhoni"){
+    console.log("👿")
+}
+
+// we can use ||
+captain === "Dhoni" || console.log("👿");
+```
+
+➡️ Source Code : [Click Here](05_Tips-and-Tricks/script.js)

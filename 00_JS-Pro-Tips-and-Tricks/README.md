@@ -36,3 +36,21 @@ console.log(Boolean(undefined)) // false
 ```
 
 ➡️ Source Code : [Click Here](02_Tips-and-Tricks/script.js)
+
+## 03 - Resizing any Array
+```
+/*********************
+* Resizing any array *
+**********************/
+
+//initialize the array
+let animals = ['🐱', '🐼', '🐯', '🦓']
+
+// we can use array's length property
+animals.length = 3
+
+//output
+console.log(animals) // ['🐱', '🐼', '🐯']
+```
+
+➡️ Source Code : [Click Here](03_Tips-and-Tricks/script.js)

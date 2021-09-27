@@ -10,7 +10,7 @@
 
 ### Brief history of JavaScript?
 <p align="center">
-  <img width="80" src="00_JS-Pro-Tips-and-Tricks/00_Images/brendan-eich.png">
+  <img width="120" src="00_JS-Pro-Tips-and-Tricks/00_Images/brendan-eich.png">
 </p>
 
 *JavaScript was created at Netscape Communications by Brendan Eich in 1995. Netscape and Eich designed JavaScript as a scripting language for use with the company's flagship web browser, Netscape Navigator.*

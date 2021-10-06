@@ -2,7 +2,7 @@
  * Primitives Vs. Objects *
  **************************/
 
-// Primitives are : number, string, boolean, undefined, null Everything else are Objects
+// Primitives are : number, string, boolean, undefined, null; Everything else are Objects
 
 
 //Primitives
